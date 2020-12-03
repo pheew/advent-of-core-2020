@@ -5,5 +5,8 @@
   "repository": "git@github.com:pheew/advent-of-core-2020.git",
   "author": "Niek Bruins <niek@fambruins.nl>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }
