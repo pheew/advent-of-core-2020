@@ -1,0 +1,9 @@
+{
+  "name": "day-3",
+  "private": true,
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "dependencies": {
+    "shared": "workspace:*"
+  }
+}

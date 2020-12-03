@@ -1,0 +1,12 @@
+{
+  "name": "day-template",
+  "private": true,
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "dependencies": {
+    "shared": "workspace:*"
+  }
+}

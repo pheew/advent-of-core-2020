@@ -773,8 +773,6 @@ __metadata:
 "advent-of-code-2020@workspace:.":
   version: 0.0.0-use.local
   resolution: "advent-of-code-2020@workspace:."
-  dependencies:
-    jest: ^26.6.3
   languageName: unknown
   linkType: soft
 
@@ -1441,6 +1439,30 @@ __metadata:
   checksum: 42239927c6a202e2d02b7f41c94ca53e3cea036898b97b8bf6120ed1b25e0dd11c48ec7aa5c84cf807c2cb9f3a637df9fb50f3ca25a52863186a4ac46254726b
   languageName: node
   linkType: hard
+
+"day-1@workspace:days/1":
+  version: 0.0.0-use.local
+  resolution: "day-1@workspace:days/1"
+  dependencies:
+    shared: "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"day-2@workspace:days/2":
+  version: 0.0.0-use.local
+  resolution: "day-2@workspace:days/2"
+  dependencies:
+    shared: "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"day-3@workspace:days/3":
+  version: 0.0.0-use.local
+  resolution: "day-3@workspace:days/3"
+  dependencies:
+    shared: "workspace:*"
+  languageName: unknown
+  linkType: soft
 
 "debug@npm:^2.2.0, debug@npm:^2.3.3":
   version: 2.6.9
@@ -4115,6 +4137,16 @@ fsevents@^2.1.2:
   checksum: a97a99a00cc5ed3034ccd690ff4dde167e4182ec4ef2fd5277637a6e388839292559301408b91405534b44e76450bdd443ac95427fde40e9a1a62102c1262bd1
   languageName: node
   linkType: hard
+
+"shared@workspace:*, shared@workspace:shared":
+  version: 0.0.0-use.local
+  resolution: "shared@workspace:shared"
+  dependencies:
+    jest: ^26.6.3
+  bin:
+    test: yarn jest
+  languageName: unknown
+  linkType: soft
 
 "shebang-command@npm:^1.2.0":
   version: 1.2.0

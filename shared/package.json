@@ -1,0 +1,11 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "bin": {
+    "test": "yarn jest"
+  },
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
